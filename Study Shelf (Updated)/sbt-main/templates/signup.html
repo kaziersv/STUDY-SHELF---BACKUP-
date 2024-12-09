@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/sbt-main/static/signup.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section -->
+        <div class="left">
+            <img src="/sbt-main/static/img/image_1.jpg" alt="Illustration">
+        </div>
+
+        <!-- Right Section -->
+        <div class="right">
+            <h2>SIGN UP</h2>
+            <img class="line" src="/sbt-main/static/img/image_8.jpg"/>
+            <img class="teacherimg" src="/sbt-main/static/img/image_4.png"/>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email / Username</label>
+                    <input type="email" id="email" placeholder="Enter your e-mail or username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <div class="password">
+                        <input type="password" id="password" placeholder="Enter your password">
+                        <button type="button" class="toggle">👁</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="confirm_password">Confirm Password</label>
+                    <div class="confirm_password">
+                        <input type="confirm_password" id="confirm_password" placeholder="Confirm your password">
+                        <button type="button" class="toggle">👁</button>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button type="submit">Sign In</button>
+                    <h1>Already have an account?</h1>
+                    <a href="/sbt-main/templates/selectusertype.html" class="signin">Sign In</a>
+                </div>
+                <div></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 1536px;
+    height: 729px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.left img {
+    position: absolute;
+    width: 750px;
+    height: 578px;
+    top: 110;
+    left: 0;
+    object-fit: cover;
+}
+
+.right {
+    width: 50%;
+    background-color: #081779;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.right h2 {
+    position:absolute;
+    align-items: center;
+    font-family: "Lustria", serif;
+    font-size: 60px;
+    font-weight: 400;
+    top: 50px;
+}
+
+.right .line {
+    position: absolute;
+    width: 250px;
+    height: 6px;
+    top: 130px;
+}
+
+.right .teacherimg {
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    top: 170px;
+    align-content: center;
+    border-radius: 150px;
+}
+
+.form-group {
+    position: relative;
+    justify-self: center;
+    top: 160px;
+    width: 230%;
+    padding: 10px;
+}
+
+.form-group label {
+    font-family: "Poppins", sans-serif;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.form-group .password {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form-group .password input {
+    width: 100%;
+}
+
+.form-group .password .toggle {
+    position: absolute;
+    right: 25px;
+    background: none;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+.buttons {
+    position: relative;
+    top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons h3 {
+    position: absolute;
+    font-size: 13px;
+    top: 65px;
+}
+
+.buttons button {
+    background-color: #fff;
+    color: #081779;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    padding: 10px 20px;
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttons button:hover {
+    background-color: #ccc;
+}
+
+.signup {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    width: 200px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    margin: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+.signup:hover {
+    background-color: #fff;
+    color: #064aa7;
+}
+

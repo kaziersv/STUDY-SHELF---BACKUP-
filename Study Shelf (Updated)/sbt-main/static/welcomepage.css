@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.frame {
+    position: absolute;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.frame .div {
+    position: absolute;
+    background-color: #ffffff;
+    width: 1440px;
+    height: 500px;
+    margin-bottom: 190px;
+    
+}
+
+.frame .overlap-group {
+    position: relative;
+    width: 800px;
+    height: 1024px;
+    top: 0;
+    left: 720px;
+    z-index: 1;
+    background-color: #0d026e;
+}
+
+.frame .text-wrapper {
+    position: absolute;
+    width: 535px;
+    top: 175px;
+    left: 92px;
+    font-family: "Lustria", serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .line {
+    position: absolute;
+    width: 255px;
+    height: 6px;
+    top: 355px;
+    left: 232px;
+}
+
+.frame .p {
+    position: absolute;
+    width: 601px;
+    top: 350px;
+    left: 70px;
+    font-family: "Lustria", serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .next-button {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top: 570px;
+    left: 610px;
+    z-index: 9999;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.frame .ea {
+    position: absolute;
+    width: 750px;
+    height: 578px;
+    top: 110px;
+    left: 0;
+    object-fit: cover;
+    
+}
+
+.next-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

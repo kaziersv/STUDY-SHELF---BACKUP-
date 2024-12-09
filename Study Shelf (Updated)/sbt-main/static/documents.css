@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+@media (min-width: 768px) {
+    body {
+        flex-direction: row;
+    }
+}
+
+/* Sidebar */
+.sidebar {
+    width: 100%;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        width: 25%;
+        border-bottom: none;
+        border-right: 1px solid #ddd;
+    }
+}
+
+.sidebar .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sidebar .profile span {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.sidebar .search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .search input {
+    width: 100%;
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sidebar .search button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+
+.sidebar .menu {
+    flex-grow: 1;
+}
+
+.sidebar .menu a {
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    color: #333;
+    text-decoration: none;
+    font-family: "Lustria", serif;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.sidebar .menu a img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar .menu a:hover {
+    background-color: #ddd;
+}
+
+.sidebar .logout {
+    margin-top: auto;
+}
+
+.sidebar .logout a {
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    color: #333;
+    text-decoration: none;
+    font-family: "Lustria", serif;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.sidebar .logout a:hover {
+    background-color: #ddd;
+}
+
+/* Main Content */
+.main-content {
+    width: 100%;
+    background-color: #081779;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .main-content {
+        width: 75%;
+    }
+}
+
+.main-content h1 {
+    font-family: "Lustria", serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin: 0;
+    color: #ffffff;
+}
+
+.main-content p {
+    font-family: "Lustria", serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #ffffff  ;
+}
+
+.main-content .underline {
+    margin: 10px 0;
+    width: 255px;
+    height: 5px;
+    background-color: white;
+}
